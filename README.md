@@ -6,3 +6,5 @@ Retro feel web radio , 'leeches' mp3 audio files from remote locations , no need
 Plays from yr desktop or remote server by loading selected audio files from a .json data file. Simple as.
 
 ![radio](radio.jpg)   
+
+Double click or drag and drop in to your browser and click the ```open web radio ``` button.
