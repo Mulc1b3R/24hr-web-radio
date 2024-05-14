@@ -5,4 +5,4 @@ Retro feel web radio , 'leeches' mp3 audio files from remote locations , no need
 
 Plays from yr desktop or remote server by loading selected audio files from a .json data file. Simple as.
 
-![DNA](sequence.png)
+![radio](radio.jpg)   
