@@ -23,7 +23,13 @@ auidio dialog in conjuction with 'zendog eve'. In this example i use archive.org
 
 To create your own dialog and drop it in , follow these simle steps.
 
-open txt editor or copy txt from anywhere. GoTo ; https://eve-red.vercel.app/     
+open txt editor or copy txt from anywhere and  GoTo ; https://eve-red.vercel.app/     add openai apikey to the electronic voice emulator ,
+
+and past the txt in to the txt field. Select the voice of your choice. The open source openaai ```whisper``` project offers a choice of
+
+near human ai voices : ```alloy```  ```onyx``` ```shimmer``` ```nova``` ```echo```  are American English ```fable``` is English . 
+
+Choose a voice and click the  ```create speech``` button. Eve will generate an audio mp3 for download in a few seconds.
 
 
  
