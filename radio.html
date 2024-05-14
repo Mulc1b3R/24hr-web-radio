@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<style>
+
+      body {
+			background:black;
+		    color: white;
+      }
+	  @keyframes marquee {
+            from {
+                transform: translateX(100%);
+            }
+            to {
+                transform: translateX(-100%);
+            }
+        }
+
+        .marquee {
+            white-space: nowrap;
+            overflow: hidden;
+            animation: marquee 5s linear infinite;
+        }
+</style>
+    <title>Psico Web radio...</title>
+</head>
+<body>
+<script>
+        window.onload = function() {
+            let title = document.title;
+            let marqueeTitle = 'Live Broadcast... ' + title + ' ';  // Add your custom message
+
+            document.title = marqueeTitle;
+
+            let titleLength = marqueeTitle.length - 1;
+            let animatedTitle = marqueeTitle + ' '.repeat(titleLength);
+
+            document.title = animatedTitle;
+
+            // Ensure the title continues to scroll even when the tab is inactive
+            setInterval(() => {
+                animatedTitle = animatedTitle.substring(1) + animatedTitle[0];
+                document.title = animatedTitle;
+            }, 250);  // Change the interval for different scrolling speeds
+        };
+    </script>
+
+<center>
+    <h1>Psico Web Radio</h1>
+	<br>
+	<br>
+ <img src="radio.jpg" alt="desc">
+   <br>
+    <button id="playButton">On</button>
+    <p id="trackInfo"></p>
+
+    <audio id="audioPlayer" controls>
+        Your browser does not support the <code>audio</code> element.
+    </audio>
+
+    <script src="script.js"></script>
+	  <br>
+	   <br>
+metamask address ; 0x63673528404C9B9394d4Ec6FA037ED825c8b0faa
+  <br><br>
+  Copyright © 2023 Psico Communications and Blockchain Development.
+  </center>
+  <br><br>
+</body>
+</html>
