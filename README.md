@@ -37,7 +37,9 @@ which you can find here ; https://www.audacityteam.org/download/        by splic
 
 Edit out the existing html however u want ..........................apache 2.0 and psico herebye grant you all permissions to use ,alter and distribute.
 
-" If music be the food of love...PLAY ON "  William Shakespere.                                                                                                                      MADE IN YORKSHIRE.
+" If music be the food of love...PLAY ON "  William Shakespere.                                                                                                                    
+
+                                                                               MADE IN YORKSHIRE.
 
 
 
